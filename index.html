@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Something</title>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <span class="js-weather"></span>
+
+    <section class="area">
+      <div class="clockAndUser">
+        <div class="in_ClockAndUser">
+          <div class="js-clock">
+            <h1>00:00</h1>
+          </div>
+
+          <div class="usernameDiv">
+            <form class="js-form form">
+              <input type="text" placeholder="what is your name?" />
+            </form>
+            <h4 class="js-greetings gretting"></h4>
+          </div>
+        </div>
+      </div>
+
+      <section class="area2">
+        <form class="js-toDoForm">
+          <input type="text" id="toDoInput" placeholder="Write a to do" />
+        </form>
+
+        <div class="viewList">
+          <div>
+            <h3>TODO LIST</h3>
+            <div class="viewInList">
+              <ul class="js-pending"></ul>
+            </div>
+          </div>
+
+          <div>
+            <h3>FINISH LIST</h3>
+            <div class="viewInList">
+              <ul class="js-finished"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="clock.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
